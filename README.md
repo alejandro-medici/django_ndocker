@@ -26,3 +26,8 @@ DATABASES = {
         'PORT': 3306,
     }
 }
+
+
+## Ahora ya podemos crear nuestra app con el siguiente comando:
+
+python manage.py startapp {REEMPLAZAR POR NOMBRE DE APP}
