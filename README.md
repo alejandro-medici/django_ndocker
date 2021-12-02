@@ -31,3 +31,10 @@ DATABASES = {
 ## Ahora ya podemos crear nuestra app con el siguiente comando:
 
 python manage.py startapp {REEMPLAZAR POR NOMBRE DE APP}
+
+## Siempre recuerden correr el comando... 
+python manage.py migrate
+
+
+## finalmente ejecutar la app de django con el comando:
+python manage.py runserver 0.0.0.0:8000
