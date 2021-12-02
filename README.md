@@ -12,3 +12,17 @@ con el comando : pip install -r requirements.txt
 ## Creamos nuestro proyecto de Django
 
 django-admin startproject {NOMBRE PROJECTO} .
+
+## Configuramos nuestro proyecto con la base de datos.
+Modificamos el archivo settings.py
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'django',
+        'USER': 'userdjango',
+        'PASSWORD': 'passworddjango',
+        'HOST': 'localhost',
+        'PORT': 3306,
+    }
+}
